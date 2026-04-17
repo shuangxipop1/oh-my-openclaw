@@ -14,6 +14,8 @@
 
 **Inspired by [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode)** by Yeachan Heo.
 
+**Also inspired by [oh-my-hermes](https://github.com/shuangxipop1/oh-my-hermes)** for Hermes AI integration patterns.
+
 OMO is a port of the OMC multi-agent orchestration system for OpenClaw AI, bringing the same workflow automation to the OpenClaw ecosystem.
 
 ---
