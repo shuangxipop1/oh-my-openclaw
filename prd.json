@@ -8,7 +8,7 @@
         "All 9 skills have valid SKILL.md files",
         "Skill descriptions match OpenClaw skill format"
       ],
-      "passes": false
+      "passes": true
     },
     {
       "id": "US-002",
@@ -18,7 +18,7 @@
         "Python scripts provide OpenClaw-compatible entry points",
         "Skills can be invoked from OpenClaw"
       ],
-      "passes": false
+      "passes": true
     },
     {
       "id": "US-003",
@@ -28,7 +28,7 @@
         "OpenClaw can discover OMO skills via openclaw skills list",
         "README updated with OpenClaw integration instructions"
       ],
-      "passes": false
+      "passes": true
     },
     {
       "id": "US-004",
@@ -38,7 +38,7 @@
         "/ralph skill is callable from OpenClaw",
         "omo doctor shows OpenClaw integration working"
       ],
-      "passes": false
+      "passes": true
     }
   ]
 }
