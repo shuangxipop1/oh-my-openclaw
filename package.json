@@ -1,0 +1,25 @@
+{
+  "name": "oh-my-openclaw",
+  "version": "1.0.0",
+  "description": "Multi-agent orchestration for OpenClaw AI. Zero learning curve.",
+  "main": "bridge/cli.cjs",
+  "bin": {
+    "omo": "./bridge/cli.cjs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "doctor": "node ./bridge/cli.cjs doctor"
+  },
+  "keywords": [
+    "openclaw",
+    "multi-agent",
+    "orchestration",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {}
+}

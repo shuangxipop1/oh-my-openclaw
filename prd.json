@@ -1,0 +1,44 @@
+{
+  "stories": [
+    {
+      "id": "US-001",
+      "description": "Create OpenClaw-compatible SKILL.md structure",
+      "acceptanceCriteria": [
+        "SKILL.md files are in OpenClaw-compatible format",
+        "All 9 skills have valid SKILL.md files",
+        "Skill descriptions match OpenClaw skill format"
+      ],
+      "passes": false
+    },
+    {
+      "id": "US-002",
+      "description": "Create Python bridge scripts for OMO skills",
+      "acceptanceCriteria": [
+        "__init__.py files exist in each skill directory",
+        "Python scripts provide OpenClaw-compatible entry points",
+        "Skills can be invoked from OpenClaw"
+      ],
+      "passes": false
+    },
+    {
+      "id": "US-003",
+      "description": "Create OMO installer script for OpenClaw",
+      "acceptanceCriteria": [
+        "install.sh script installs OMO to OpenClaw",
+        "OpenClaw can discover OMO skills via openclaw skills list",
+        "README updated with OpenClaw integration instructions"
+      ],
+      "passes": false
+    },
+    {
+      "id": "US-004",
+      "description": "Verify OMO skills work in OpenClaw",
+      "acceptanceCriteria": [
+        "/autopilot skill is callable from OpenClaw",
+        "/ralph skill is callable from OpenClaw",
+        "omo doctor shows OpenClaw integration working"
+      ],
+      "passes": false
+    }
+  ]
+}

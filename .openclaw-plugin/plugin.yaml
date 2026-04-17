@@ -1,0 +1,15 @@
+name: oh-my-openclaw
+version: 1.0.0
+description: Multi-agent orchestration for OpenClaw AI
+author: oh-my-openclaw contributors
+entry: bridge/cli.cjs
+skills:
+  - autopilot
+  - ralph
+  - ultrawork
+  - team
+  - plan
+  - ultraqa
+  - cancel
+  - omo-setup
+  - setup
