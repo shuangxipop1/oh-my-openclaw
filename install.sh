@@ -49,11 +49,20 @@ echo -e "${BLUE}Setting up OMO in OpenClaw...${NC}"
 mkdir -p "$OMO_DIR"
 mkdir -p "$OPENCLAW_DIR/skills/omo"
 
-# Copy skills
-SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+# Copy skills to OpenClaw skills directory
+# OpenClaw expects skills in ~/.openclaw/skills/<skill-name>/
+OPENCLAW_SKILLS_DIR="$OPENCLAW_DIR/skills"
+OMO_SKILLS_DIR="$OPENCLAW_SKILLS_DIR/omo"
+
+echo -e "${BLUE}Setting up OMO skills in OpenClaw...${NC}"
+
+# Create OpenClaw skills directory
+mkdir -p "$OMO_SKILLS_DIR"
+
+# Copy skills to OpenClaw skills directory (correct location)
 if [ -d "$SCRIPT_DIR/skills" ]; then
-    cp -r "$SCRIPT_DIR/skills/"* "$OMO_DIR/"
-    echo -e "${GREEN}✓ Skills installed to $OMO_DIR${NC}"
+    cp -r "$SCRIPT_DIR/skills/"* "$OMO_SKILLS_DIR/"
+    echo -e "${GREEN}✓ Skills installed to $OMO_SKILLS_DIR${NC}"
 fi
 
 # Copy agents
